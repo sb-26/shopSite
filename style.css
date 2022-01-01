@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+}
+
+/*Header*/
+header{
+  display: flex;
+  background: url('./Assets/header-img.jpg');
+  height:50vh;
+}
+.logo h3{
+  padding: 10px;
+  border: 1px solid blue;
+  margin: 20px;
+}
+.items{
+  margin-left: 30%;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/*Main*/
+.tshirt{
+  display: flex;
+}
+.tshirt div, div img{
+  width: 25vw;
+  height:50vh;
+}
+.tshirt div{
+  text-align: center;
+}
+
+.new-stock1{
+  background: url('./Assets/coverimg1.webp');
+  height:50vh;
+}
+
+.new-stock2{
+  background: url('./Assets/coverimg2.jfif');
+  height:50vh;
+}
+
+.new-stock1, .new-stock2, .contact-us{
+  text-align: center;
+  margin: 20px;
+}
+button, input{
+  padding: 10px;
+  border: 1px solid blue;
+}
